@@ -1,0 +1,941 @@
+{
+  "ScreenDefinitions": {
+
+    "MainScreen": {
+      "Lines": {
+        "Choices": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Your available choices are:"
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "0. Exit"
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "1. Animals"
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "2. Change language"
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Please enter your choice: "
+            }
+          ]
+        },
+
+        "Exit": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Goodbye."
+            }
+          ]
+        },
+
+        "InvalidChoice": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Invalid choice. Try again."
+            }
+          ]
+        }
+
+      }
+    },
+
+    "Default": {
+      "Lines": {
+        "Choices": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 11,
+              "ForegroundColor": 9,
+              "Text": "Your available choices are:"
+            }
+          ]
+        },
+        "Exit": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Going back to parent menu."
+            }
+          ]
+        },
+        "InvalidChoice": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Invalid choice. Try again."
+            }
+          ]
+        }
+      }
+
+
+    },
+
+    "AnimalsScreen": {
+      "Lines": {
+        "Choices": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 1,
+              "ForegroundColor": 6,
+              "Text": "Your available choices are:"
+            },
+            {
+              "BackgroundColor": 1,
+              "ForegroundColor": 6,
+              "Text": "0. Exit"
+            },
+            {
+              "BackgroundColor": 1,
+              "ForegroundColor": 6,
+              "Text": "1. Mammals"
+            },
+            {
+              "BackgroundColor": 1,
+              "ForegroundColor": 6,
+              "Text": "2. Save to file"
+            },
+            {
+              "BackgroundColor": 1,
+              "ForegroundColor": 6,
+              "Text": "3. Read from file"
+            },
+            {
+              "BackgroundColor": 1,
+              "ForegroundColor": 6,
+              "Text": "Please enter your choice: "
+            }
+          ]
+        },
+        "SaveJson": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 1,
+              "ForegroundColor": 6,
+              "Text": "Save data to file: "
+            },
+            {
+              "BackgroundColor": 1,
+              "ForegroundColor": 6,
+              "Text": "Data saving was successful."
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Data saving was not successful."
+            }
+          ]
+        },
+        "ReadJson": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 1,
+              "ForegroundColor": 6,
+              "Text": "Read data from file: "
+            },
+            {
+              "BackgroundColor": 1,
+              "ForegroundColor": 6,
+              "Text": "Data reading was successful."
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Data reading was not successful."
+            }
+          ]
+        }
+
+
+      }
+
+
+    },
+
+    "MammalScreen": {
+      "Lines": {
+        "Choices": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 7,
+              "ForegroundColor": 12,
+              "Text": "Your available choices are:"
+            },
+            {
+              "BackgroundColor": 7,
+              "ForegroundColor": 12,
+              "Text": "0. Exit"
+            },
+            {
+              "BackgroundColor": 7,
+              "ForegroundColor": 12,
+              "Text": "1. Dogs"
+            },
+            {
+              "BackgroundColor": 7,
+              "ForegroundColor": 12,
+              "Text": "2. African Elephant"
+            },
+            {
+              "BackgroundColor": 7,
+              "ForegroundColor": 12,
+              "Text": "3. Chimpanzee"
+            },
+            {
+              "BackgroundColor": 7,
+              "ForegroundColor": 12,
+              "Text": "4. Platypus"
+            },
+            {
+              "BackgroundColor": 7,
+              "ForegroundColor": 12,
+              "Text": "Please enter your choice: "
+            }
+          ]
+        }
+      }
+
+    },
+
+    "DogsScreen": {
+      "Lines": {
+        "Choices": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 5,
+              "ForegroundColor": 11,
+              "Text": "Your available choices are:"
+            },
+            {
+              "BackgroundColor": 5,
+              "ForegroundColor": 11,
+              "Text": "0. Exit"
+            },
+            {
+              "BackgroundColor": 5,
+              "ForegroundColor": 11,
+              "Text": "1. List all dogs"
+            },
+            {
+              "BackgroundColor": 5,
+              "ForegroundColor": 11,
+              "Text": "2. Create a new dog"
+            },
+            {
+              "BackgroundColor": 5,
+              "ForegroundColor": 11,
+              "Text": "3. Delete existing dog"
+            },
+            {
+              "BackgroundColor": 5,
+              "ForegroundColor": 11,
+              "Text": "4. Modify existing dog"
+            },
+            {
+              "BackgroundColor": 5,
+              "ForegroundColor": 11,
+              "Text": "Please enter your choice: "
+            }
+          ]
+        },
+
+        "Exit": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Going back to parent menu."
+            }
+          ]
+        },
+
+        "InvalidChoice": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Invalid choice. Try again."
+            }
+          ]
+        },
+
+        "List": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 5,
+              "ForegroundColor": 11,
+              "Text": "Here's a list of dogs:"
+            },
+            {
+              "BackgroundColor": 5,
+              "ForegroundColor": 11,
+              "Text": "Dog number arg: "
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "The list of dogs is empty."
+            }
+          ]
+        },
+
+        "Add": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 5,
+              "ForegroundColor": 11,
+              "Text": "Dog with name: arg has been added to a list of dogs"
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Invalid input."
+            }
+          ]
+        },
+
+        "Edit": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 5,
+              "ForegroundColor": 11,
+              "Text": "What is the name of the dog you want to edit? "
+            },
+            {
+              "BackgroundColor": 5,
+              "ForegroundColor": 11,
+              "Text": "Dog after edit:"
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Dog not found."
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Invalid input. Try again."
+            }
+          ]
+        },
+
+        "AddEdit": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 5,
+              "ForegroundColor": 11,
+              "Text": "What name of the dog? "
+            },
+            {
+              "BackgroundColor": 5,
+              "ForegroundColor": 11,
+              "Text": "What is the dog's age? "
+            },
+            {
+              "BackgroundColor": 5,
+              "ForegroundColor": 11,
+              "Text": "What is the dog's breed? "
+            }
+          ]
+        },
+
+        "Delete": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 5,
+              "ForegroundColor": 11,
+              "Text": "What is the name of the dog you want to delete? "
+            },
+            {
+              "BackgroundColor": 5,
+              "ForegroundColor": 11,
+              "Text": "Dog with name: arg has been deleted from a list of dogs"
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Dog not found."
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Invalid input."
+            }
+          ]
+        }
+
+      }
+    },
+
+    "Chimpanzee": {
+      "Lines": {
+        "Choices": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 3,
+              "ForegroundColor": 14,
+              "Text": "Your available choices are:"
+            },
+            {
+              "BackgroundColor": 3,
+              "ForegroundColor": 14,
+              "Text": "0. Exit"
+            },
+            {
+              "BackgroundColor": 3,
+              "ForegroundColor": 14,
+              "Text": "1. List all Chimpanzee"
+            },
+            {
+              "BackgroundColor": 3,
+              "ForegroundColor": 14,
+              "Text": "2. Create a new Chimpanzee"
+            },
+            {
+              "BackgroundColor": 3,
+              "ForegroundColor": 14,
+              "Text": "3. Delete existing Chimpanzee"
+            },
+            {
+              "BackgroundColor": 3,
+              "ForegroundColor": 14,
+              "Text": "4. Modify existing Chimpanzee"
+            },
+            {
+              "BackgroundColor": 3,
+              "ForegroundColor": 14,
+              "Text": "Please enter your choice: "
+            }
+          ]
+        },
+
+        "List": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 3,
+              "ForegroundColor": 14,
+              "Text": "Here's a list of dogs:"
+            },
+            {
+              "BackgroundColor": 3,
+              "ForegroundColor": 14,
+              "Text": "Chimpanzee number arg: "
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "The list of Chimpanzee is empty."
+            }
+          ]
+        },
+
+        "Add": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 3,
+              "ForegroundColor": 14,
+              "Text": "Chimpanzee with name: arg has been added to a list of Chimpanzee"
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Invalid input."
+            }
+          ]
+        },
+
+        "Edit": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 3,
+              "ForegroundColor": 14,
+              "Text": "What is the name of the Chimpanzee you want to edit? "
+            },
+            {
+              "BackgroundColor": 3,
+              "ForegroundColor": 14,
+              "Text": "Chimpanzee after edit:"
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Chimpanzee not found."
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Invalid input. Try again."
+            }
+          ]
+        },
+
+        "AddEdit": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 3,
+              "ForegroundColor": 14,
+              "Text": "What name of the Chimpanzee"
+            },
+            {
+              "BackgroundColor": 3,
+              "ForegroundColor": 14,
+              "Text": "What is the Chimpanzee age? "
+            },
+            {
+              "BackgroundColor": 3,
+              "ForegroundColor": 14,
+              "Text": "Do chimpanzee have opposable thumbs? Write Y or N "
+            },
+            {
+              "BackgroundColor": 3,
+              "ForegroundColor": 14,
+              "Text": "Describe the features of opposable thumbs in chimpanzee: "
+            },
+            {
+              "BackgroundColor": 3,
+              "ForegroundColor": 14,
+              "Text": "Do chimpanzees have complex social behavior? "
+            },
+            {
+              "BackgroundColor": 3,
+              "ForegroundColor": 14,
+              "Text": "Can a chimpanzee use the tool? Write Y or N "
+            },
+            {
+              "BackgroundColor": 3,
+              "ForegroundColor": 14,
+              "Text": "Describe how chimpanzee uses the tool? :"
+            },
+            {
+              "BackgroundColor": 3,
+              "ForegroundColor": 14,
+              "Text": "What is the high intelligence of chimpanzee?"
+            },
+            {
+              "BackgroundColor": 3,
+              "ForegroundColor": 14,
+              "Text": "What is the chimpanzee flexible diet?"
+            }
+          ]
+        },
+
+        "Delete": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 3,
+              "ForegroundColor": 14,
+              "Text": "What is the name of the Chimpanzee you want to delete? "
+            },
+            {
+              "BackgroundColor": 3,
+              "ForegroundColor": 14,
+              "Text": "Chimpanzee with name: arg has been deleted from a list of Chimpanzee"
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Chimpanzee not found."
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Invalid input."
+            }
+          ]
+        }
+      }
+    },
+
+    "AfricanElephantScreen": {
+      "Lines": {
+        "Choices": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 11,
+              "ForegroundColor": 5,
+              "Text": "Your available choices are:"
+            },
+            {
+              "BackgroundColor": 11,
+              "ForegroundColor": 5,
+              "Text": "0. Exit"
+            },
+            {
+              "BackgroundColor": 11,
+              "ForegroundColor": 5,
+              "Text": "1. List all Elephant's"
+            },
+            {
+              "BackgroundColor": 11,
+              "ForegroundColor": 5,
+              "Text": "2. Create a new Elephant"
+            },
+            {
+              "BackgroundColor": 11,
+              "ForegroundColor": 5,
+              "Text": "3. Delete existing Elephant"
+            },
+            {
+              "BackgroundColor": 11,
+              "ForegroundColor": 5,
+              "Text": "4. Modify existing Elephant"
+            },
+            {
+              "BackgroundColor": 11,
+              "ForegroundColor": 5,
+              "Text": "Please enter your choice: "
+            }
+          ]
+        },
+
+        "List": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 11,
+              "ForegroundColor": 5,
+              "Text": "Here's a list of Elephant's:"
+            },
+            {
+              "BackgroundColor": 11,
+              "ForegroundColor": 5,
+              "Text": "Elephant number arg: "
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "The list of Elephant's is empty."
+            }
+          ]
+        },
+
+        "Add": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 11,
+              "ForegroundColor": 5,
+              "Text": "Elephant with name: arg has been added to a list of Elephant's"
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Invalid input."
+            }
+          ]
+        },
+
+        "Edit": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 11,
+              "ForegroundColor": 5,
+              "Text": "What is the name of the Elephant you want to edit? "
+            },
+            {
+              "BackgroundColor": 11,
+              "ForegroundColor": 5,
+              "Text": "Elephant after edit:"
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Elephant not found."
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Invalid input. Try again."
+            }
+          ]
+        },
+
+        "AddEdit": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 11,
+              "ForegroundColor": 5,
+              "Text": "What name of the African Elephant?"
+            },
+            {
+              "BackgroundColor": 11,
+              "ForegroundColor": 5,
+              "Text": "What is the African Elephant age?"
+            },
+            {
+              "BackgroundColor": 11,
+              "ForegroundColor": 5,
+              "Text": "What is the African Elephant height?"
+            },
+            {
+              "BackgroundColor": 11,
+              "ForegroundColor": 5,
+              "Text": "What is the African Elephant weight?"
+            },
+            {
+              "BackgroundColor": 11,
+              "ForegroundColor": 5,
+              "Text": "What is the African Elephant tusk lenght?"
+            },
+            {
+              "BackgroundColor": 11,
+              "ForegroundColor": 5,
+              "Text": "What is the African Elephant long life span?"
+            },
+            {
+              "BackgroundColor": 11,
+              "ForegroundColor": 5,
+              "Text": "What is social behavior of the African Elephant?"
+            }
+          ]
+        },
+
+        "Delete": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 11,
+              "ForegroundColor": 5,
+              "Text": "What is the name of the Elephant you want to delete? "
+            },
+            {
+              "BackgroundColor": 11,
+              "ForegroundColor": 5,
+              "Text": "Elephant with name: arg has been deleted from a list of Elephant"
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Elephant not found."
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Invalid input."
+            }
+          ]
+        }
+      }
+    },
+
+    "Platypus": {
+      "Lines": {
+        "Choices": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 14,
+              "ForegroundColor": 2,
+              "Text": "Your available choices are:"
+            },
+            {
+              "BackgroundColor": 14,
+              "ForegroundColor": 2,
+              "Text": "0. Exit"
+            },
+            {
+              "BackgroundColor": 14,
+              "ForegroundColor": 2,
+              "Text": "1. List all Platypus"
+            },
+            {
+              "BackgroundColor": 14,
+              "ForegroundColor": 2,
+              "Text": "2. Create a new Platypus"
+            },
+            {
+              "BackgroundColor": 14,
+              "ForegroundColor": 2,
+              "Text": "3. Delete existing Platypus"
+            },
+            {
+              "BackgroundColor": 14,
+              "ForegroundColor": 2,
+              "Text": "4. Modify existing Platypus"
+            },
+            {
+              "BackgroundColor": 14,
+              "ForegroundColor": 2,
+              "Text": "Please enter your choice: "
+            }
+          ]
+        },
+
+        "List": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 14,
+              "ForegroundColor": 2,
+              "Text": "Here's a list of Platypus:"
+            },
+            {
+              "BackgroundColor": 14,
+              "ForegroundColor": 2,
+              "Text": "Platypus number arg: "
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "The list of Platypus is empty."
+            }
+          ]
+        },
+
+        "Add": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 14,
+              "ForegroundColor": 2,
+              "Text": "Platypus with name: arg has been added to a list of Platypus"
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Invalid input."
+            }
+          ]
+        },
+
+        "Edit": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 14,
+              "ForegroundColor": 2,
+              "Text": "What is the name of the Platypus you want to edit? "
+            },
+            {
+              "BackgroundColor": 14,
+              "ForegroundColor": 2,
+              "Text": "Platypus after edit:"
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Platypus not found."
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Invalid input. Try again."
+            }
+          ]
+        },
+
+        "AddEdit": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 14,
+              "ForegroundColor": 2,
+              "Text": "What name of the Platypus"
+            },
+            {
+              "BackgroundColor": 14,
+              "ForegroundColor": 2,
+              "Text": "What is the Platypus age? "
+            },
+            {
+              "BackgroundColor": 14,
+              "ForegroundColor": 2,
+              "Text": "What is the Platypus height?"
+            },
+            {
+              "BackgroundColor": 14,
+              "ForegroundColor": 2,
+              "Text": "What is the Platypus weight? "
+            },
+            {
+              "BackgroundColor": 14,
+              "ForegroundColor": 2,
+              "Text": "How long is the Platypus habitat? "
+            },
+            {
+              "BackgroundColor": 14,
+              "ForegroundColor": 2,
+              "Text": "Is Platypus male? Y or N "
+            },
+            {
+              "BackgroundColor": 14,
+              "ForegroundColor": 2,
+              "Text": "Is Platypus venomous? True or false "
+            }
+          ]
+        },
+
+        "Delete": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 14,
+              "ForegroundColor": 2,
+              "Text": "What is the name of the Platypus you want to delete? "
+            },
+            {
+              "BackgroundColor": 14,
+              "ForegroundColor": 2,
+              "Text": "Platypus with name: arg has been deleted from a list of Platypus"
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Platypus not found."
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Invalid input."
+            }
+          ]
+        }
+
+      }
+    },
+
+    "SettingsScreen": {
+      "Lines": {
+        "Choices": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 14,
+              "Text": "Your available choices are:"
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 14,
+              "Text": "0. Exit"
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 14,
+              "Text": "1. ENG"
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 14,
+              "Text": "2. PL"
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 14,
+              "Text": "Please enter your choice: "
+            }
+          ]
+        }
+      }
+    }
+  }
+}
