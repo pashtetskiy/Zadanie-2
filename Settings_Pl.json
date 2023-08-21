@@ -1,0 +1,889 @@
+{
+  "ScreenDefinitions": {
+    "MainScreen": {
+      "Lines": {
+        "Choices": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Dostepne opcje to:"
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "0. Wyjście"
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "1. Zwierzęta"
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "2. Zmień język"
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Proszę podać wybór: "
+            }
+          ]
+        },
+        "Exit": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Do widzenia."
+            }
+          ]
+        },
+        "InvalidChoice": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Nieprawidłowy wybór. Spróbuj ponownie."
+            }
+          ]
+        }
+      }
+    },
+    "Default": {
+      "Lines": {
+        "Choices": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 11,
+              "ForegroundColor": 9,
+              "Text": "Dostępne opcje to:"
+            }
+          ]
+        },
+        "Exit": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Powrót do menu nadrzędnego."
+            }
+          ]
+        },
+        "InvalidChoice": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Nieprawidłowy wybór. Spróbuj ponownie."
+            }
+          ]
+        }
+      }
+    },
+    "AnimalsScreen": {
+      "Lines": {
+        "Choices": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 1,
+              "ForegroundColor": 6,
+              "Text": "Dostępne opcje to:"
+            },
+            {
+              "BackgroundColor": 1,
+              "ForegroundColor": 6,
+              "Text": "0. Wyjście"
+            },
+            {
+              "BackgroundColor": 1,
+              "ForegroundColor": 6,
+              "Text": "1. Ssaki"
+            },
+            {
+              "BackgroundColor": 1,
+              "ForegroundColor": 6,
+              "Text": "2. Zapisz do pliku"
+            },
+            {
+              "BackgroundColor": 1,
+              "ForegroundColor": 6,
+              "Text": "3. Odczytaj z pliku"
+            },
+            {
+              "BackgroundColor": 1,
+              "ForegroundColor": 6,
+              "Text": "Proszę podać wybór: "
+            }
+          ]
+        },
+        "SaveJson": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 1,
+              "ForegroundColor": 6,
+              "Text": "Zapisz dane do pliku: "
+            },
+            {
+              "BackgroundColor": 1,
+              "ForegroundColor": 6,
+              "Text": "Zapisywanie danych zakończone sukcesem."
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Zapisywanie danych nie powiodło się."
+            }
+          ]
+        },
+        "ReadJson": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 1,
+              "ForegroundColor": 6,
+              "Text": "Odczytaj dane z pliku: "
+            },
+            {
+              "BackgroundColor": 1,
+              "ForegroundColor": 6,
+              "Text": "Odczytywanie danych zakończone sukcesem."
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Odczytywanie danych nie powiodło się."
+            }
+          ]
+        }
+      }
+    },
+    "MammalScreen": {
+      "Lines": {
+        "Choices": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 7,
+              "ForegroundColor": 12,
+              "Text": "Dostępne opcje to:"
+            },
+            {
+              "BackgroundColor": 7,
+              "ForegroundColor": 12,
+              "Text": "0. Wyjście"
+            },
+            {
+              "BackgroundColor": 7,
+              "ForegroundColor": 12,
+              "Text": "1. Psy"
+            },
+            {
+              "BackgroundColor": 7,
+              "ForegroundColor": 12,
+              "Text": "2. Słoń afrykański"
+            },
+            {
+              "BackgroundColor": 7,
+              "ForegroundColor": 12,
+              "Text": "3. Szympans"
+            },
+            {
+              "BackgroundColor": 7,
+              "ForegroundColor": 12,
+              "Text": "4. Dziobak"
+            },
+            {
+              "BackgroundColor": 7,
+              "ForegroundColor": 12,
+              "Text": "Proszę podać wybór: "
+            }
+          ]
+        }
+      }
+    },
+    "DogsScreen": {
+      "Lines": {
+        "Choices": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 5,
+              "ForegroundColor": 11,
+              "Text": "Dostępne opcje to:"
+            },
+            {
+              "BackgroundColor": 5,
+              "ForegroundColor": 11,
+              "Text": "0. Wyjście"
+            },
+            {
+              "BackgroundColor": 5,
+              "ForegroundColor": 11,
+              "Text": "1. Wyświetl listę psów"
+            },
+            {
+              "BackgroundColor": 5,
+              "ForegroundColor": 11,
+              "Text": "2. Dodaj nowego psa"
+            },
+            {
+              "BackgroundColor": 5,
+              "ForegroundColor": 11,
+              "Text": "3. Usuń istniejącego psa"
+            },
+            {
+              "BackgroundColor": 5,
+              "ForegroundColor": 11,
+              "Text": "4. Zmień istniejącego psa"
+            },
+            {
+              "BackgroundColor": 5,
+              "ForegroundColor": 11,
+              "Text": "Proszę podać wybór: "
+            }
+          ]
+        },
+        "Exit": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Powrót do menu nadrzędnego."
+            }
+          ]
+        },
+        "InvalidChoice": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Nieprawidłowy wybór. Spróbuj ponownie."
+            }
+          ]
+        },
+        "List": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 5,
+              "ForegroundColor": 11,
+              "Text": "Oto lista psów:"
+            },
+            {
+              "BackgroundColor": 5,
+              "ForegroundColor": 11,
+              "Text": "Numer psa arg: "
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Lista psów jest pusta."
+            }
+          ]
+        },
+        "Add": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 5,
+              "ForegroundColor": 11,
+              "Text": "Pies o nazwie arg został dodany do listy psów."
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Nieprawidłowe dane wejściowe."
+            }
+          ]
+        },
+        "Edit": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 5,
+              "ForegroundColor": 11,
+              "Text": "Podaj nazwę psa, który chcesz edytować: "
+            },
+            {
+              "BackgroundColor": 5,
+              "ForegroundColor": 11,
+              "Text": "Pies po edycji:"
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Pies nie znaleziony."
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Nieprawidłowe dane wejściowe. Spróbuj ponownie."
+            }
+          ]
+        },
+        "AddEdit": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 5,
+              "ForegroundColor": 11,
+              "Text": "Podaj nazwę psa: "
+            },
+            {
+              "BackgroundColor": 5,
+              "ForegroundColor": 11,
+              "Text": "Podaj wiek psa: "
+            },
+            {
+              "BackgroundColor": 5,
+              "ForegroundColor": 11,
+              "Text": "Podaj rasę psa: "
+            }
+          ]
+        },
+        "Delete": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 5,
+              "ForegroundColor": 11,
+              "Text": "Podaj nazwę psa, którego chcesz usunąć: "
+            },
+            {
+              "BackgroundColor": 5,
+              "ForegroundColor": 11,
+              "Text": "Pies o nazwie arg został usunięty z listy psów."
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Pies nie znaleziony."
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Nieprawidłowe dane wejściowe."
+            }
+          ]
+        }
+      }
+    },
+    "Chimpanzee": {
+      "Lines": {
+        "Choices": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 3,
+              "ForegroundColor": 14,
+              "Text": "Dostępne opcje to:"
+            },
+            {
+              "BackgroundColor": 3,
+              "ForegroundColor": 14,
+              "Text": "0. Wyjście"
+            },
+            {
+              "BackgroundColor": 3,
+              "ForegroundColor": 14,
+              "Text": "1. Wyświetl listę szympansów"
+            },
+            {
+              "BackgroundColor": 3,
+              "ForegroundColor": 14,
+              "Text": "2. Dodaj nowego szympansa"
+            },
+            {
+              "BackgroundColor": 3,
+              "ForegroundColor": 14,
+              "Text": "3. Usuń istniejącego szympansa"
+            },
+            {
+              "BackgroundColor": 3,
+              "ForegroundColor": 14,
+              "Text": "4. Zmień istniejącego szympansa"
+            },
+            {
+              "BackgroundColor": 3,
+              "ForegroundColor": 14,
+              "Text": "Proszę podać wybór: "
+            }
+          ]
+        },
+        "List": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 3,
+              "ForegroundColor": 14,
+              "Text": "Oto lista szympansów:"
+            },
+            {
+              "BackgroundColor": 3,
+              "ForegroundColor": 14,
+              "Text": "Numer szympansa arg: "
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Lista szympansów jest pusta."
+            }
+          ]
+        },
+        "Add": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 3,
+              "ForegroundColor": 14,
+              "Text": "Szympans o nazwie arg został dodany do listy szympansów."
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Nieprawidłowe dane wejściowe."
+            }
+          ]
+        },
+        "Edit": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 3,
+              "ForegroundColor": 14,
+              "Text": "Podaj nazwę szympansa, którego chcesz edytować: "
+            },
+            {
+              "BackgroundColor": 3,
+              "ForegroundColor": 14,
+              "Text": "Szympans po edycji:"
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Szympans nie znaleziony."
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Nieprawidłowe dane wejściowe. Spróbuj ponownie."
+            }
+          ]
+        },
+        "AddEdit": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 3,
+              "ForegroundColor": 14,
+              "Text": "Podaj nazwę szympansa: "
+            },
+            {
+              "BackgroundColor": 3,
+              "ForegroundColor": 14,
+              "Text": "Podaj wiek szympansa: "
+            },
+            {
+              "BackgroundColor": 3,
+              "ForegroundColor": 14,
+              "Text": "Czy szympans ma kciuki przeciwstawne? Wpisz T lub N "
+            },
+            {
+              "BackgroundColor": 3,
+              "ForegroundColor": 14,
+              "Text": "Opisz cechy kciuków przeciwstawnych u szympansów: "
+            },
+            {
+              "BackgroundColor": 3,
+              "ForegroundColor": 14,
+              "Text": "Czy szympansy wykazują złożone zachowania społeczne? "
+            },
+            {
+              "BackgroundColor": 3,
+              "ForegroundColor": 14,
+              "Text": "Czy szympans potrafi używać narzędzi? Wpisz T lub N "
+            },
+            {
+              "BackgroundColor": 3,
+              "ForegroundColor": 14,
+              "Text": "Opisz, w jaki sposób szympansy korzystają z narzędzi: "
+            },
+            {
+              "BackgroundColor": 3,
+              "ForegroundColor": 14,
+              "Text": "Czym charakteryzuje się wysoka inteligencja szympansów?"
+            },
+            {
+              "BackgroundColor": 3,
+              "ForegroundColor": 14,
+              "Text": "Jaka jest zróżnicowana dieta szympansów?"
+            }
+          ]
+        },
+        "Delete": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 3,
+              "ForegroundColor": 14,
+              "Text": "Podaj nazwę szympansa, którego chcesz usunąć: "
+            },
+            {
+              "BackgroundColor": 3,
+              "ForegroundColor": 14,
+              "Text": "Szympans o nazwie arg został usunięty z listy szympansów."
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Szympans nie znaleziony."
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Nieprawidłowe dane wejściowe."
+            }
+          ]
+        }
+      }
+    },
+    "AfricanElephantScreen": {
+      "Lines": {
+        "Choices": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 11,
+              "ForegroundColor": 5,
+              "Text": "Dostępne opcje to:"
+            },
+            {
+              "BackgroundColor": 11,
+              "ForegroundColor": 5,
+              "Text": "0. Wyjście"
+            },
+            {
+              "BackgroundColor": 11,
+              "ForegroundColor": 5,
+              "Text": "1. Wyświetl listę słoni afrykańskich"
+            },
+            {
+              "BackgroundColor": 11,
+              "ForegroundColor": 5,
+              "Text": "2. Dodaj nowego słonia afrykańskiego"
+            },
+            {
+              "BackgroundColor": 11,
+              "ForegroundColor": 5,
+              "Text": "3. Usuń istniejącego słonia afrykańskiego"
+            },
+            {
+              "BackgroundColor": 11,
+              "ForegroundColor": 5,
+              "Text": "4. Zmień istniejącego słonia afrykańskiego"
+            },
+            {
+              "BackgroundColor": 11,
+              "ForegroundColor": 5,
+              "Text": "Proszę podać wybór: "
+            }
+          ]
+        },
+        "List": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 11,
+              "ForegroundColor": 5,
+              "Text": "Oto lista słoni afrykańskich:"
+            },
+            {
+              "BackgroundColor": 11,
+              "ForegroundColor": 5,
+              "Text": "Numer słonia afrykańskiego arg: "
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Lista słoni afrykańskich jest pusta."
+            }
+          ]
+        },
+        "Add": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 11,
+              "ForegroundColor": 5,
+              "Text": "Słoń afrykański o nazwie arg został dodany do listy słoni afrykańskich."
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Nieprawidłowe dane wejściowe."
+            }
+          ]
+        },
+        "Edit": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 11,
+              "ForegroundColor": 5,
+              "Text": "Podaj nazwę słonia afrykańskiego, którego chcesz edytować: "
+            },
+            {
+              "BackgroundColor": 11,
+              "ForegroundColor": 5,
+              "Text": "Słoń afrykański po edycji:"
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Słoń afrykański nie znaleziony."
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Nieprawidłowe dane wejściowe. Spróbuj ponownie."
+            }
+          ]
+        },
+        "AddEdit": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 11,
+              "ForegroundColor": 5,
+              "Text": "Podaj nazwę słonia afrykańskiego: "
+            },
+            {
+              "BackgroundColor": 11,
+              "ForegroundColor": 5,
+              "Text": "Podaj wiek słonia afrykańskiego: "
+            },
+            {
+              "BackgroundColor": 11,
+              "ForegroundColor": 5,
+              "Text": "Podaj wysokość słonia afrykańskiego: "
+            },
+            {
+              "BackgroundColor": 11,
+              "ForegroundColor": 5,
+              "Text": "Podaj wagę słonia afrykańskiego: "
+            },
+            {
+              "BackgroundColor": 11,
+              "ForegroundColor": 5,
+              "Text": "Podaj długość kłów słonia afrykańskiego: "
+            },
+            {
+              "BackgroundColor": 11,
+              "ForegroundColor": 5,
+              "Text": "Podaj długi okres życia słonia afrykańskiego: "
+            },
+            {
+              "BackgroundColor": 11,
+              "ForegroundColor": 5,
+              "Text": "Podaj zachowanie społeczne słonia afrykańskiego: "
+            }
+          ]
+        },
+        "Delete": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 11,
+              "ForegroundColor": 5,
+              "Text": "Podaj nazwę słonia afrykańskiego, którego chcesz usunąć: "
+            },
+            {
+              "BackgroundColor": 11,
+              "ForegroundColor": 5,
+              "Text": "Słoń afrykański o nazwie arg został usunięty z listy słoni afrykańskich."
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Słoń afrykański nie znaleziony."
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Nieprawidłowe dane wejściowe."
+            }
+          ]
+        }
+      }
+    },
+    "Platypus": {
+      "Lines": {
+        "Choices": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 14,
+              "ForegroundColor": 2,
+              "Text": "Dostępne opcje to:"
+            },
+            {
+              "BackgroundColor": 14,
+              "ForegroundColor": 2,
+              "Text": "0. Wyjście"
+            },
+            {
+              "BackgroundColor": 14,
+              "ForegroundColor": 2,
+              "Text": "1. Wyświetl listę dziobaków"
+            },
+            {
+              "BackgroundColor": 14,
+              "ForegroundColor": 2,
+              "Text": "2. Dodaj nowego dziobaka"
+            },
+            {
+              "BackgroundColor": 14,
+              "ForegroundColor": 2,
+              "Text": "3. Usuń istniejącego dziobaka"
+            },
+            {
+              "BackgroundColor": 14,
+              "ForegroundColor": 2,
+              "Text": "4. Zmień istniejącego dziobaka"
+            },
+            {
+              "BackgroundColor": 14,
+              "ForegroundColor": 2,
+              "Text": "Proszę podać wybór: "
+            }
+          ]
+        },
+        "List": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 14,
+              "ForegroundColor": 2,
+              "Text": "Oto lista dziobaków:"
+            },
+            {
+              "BackgroundColor": 14,
+              "ForegroundColor": 2,
+              "Text": "Numer dziobaka arg: "
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Lista dziobaków jest pusta."
+            }
+          ]
+        },
+        "Add": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 14,
+              "ForegroundColor": 2,
+              "Text": "Dziobak o nazwie arg został dodany do listy dziobaków."
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Nieprawidłowe dane wejściowe."
+            }
+          ]
+        },
+        "Edit": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 14,
+              "ForegroundColor": 2,
+              "Text": "Podaj nazwę dziobaka, którego chcesz edytować: "
+            },
+            {
+              "BackgroundColor": 14,
+              "ForegroundColor": 2,
+              "Text": "Dziobak po edycji:"
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Dziobak nie znaleziony."
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Nieprawidłowe dane wejściowe. Spróbuj ponownie."
+            }
+          ]
+        },
+        "AddEdit": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 14,
+              "ForegroundColor": 2,
+              "Text": "Podaj nazwę dziobaka: "
+            },
+            {
+              "BackgroundColor": 14,
+              "ForegroundColor": 2,
+              "Text": "Podaj rodzaj sierści dziobaka: "
+            },
+            {
+              "BackgroundColor": 14,
+              "ForegroundColor": 2,
+              "Text": "Czy dziobak ma jaja? Wpisz T lub N "
+            },
+            {
+              "BackgroundColor": 14,
+              "ForegroundColor": 2,
+              "Text": "Czy dziobak jest aktywny głównie w nocy? Wpisz T lub N "
+            },
+            {
+              "BackgroundColor": 14,
+              "ForegroundColor": 2,
+              "Text": "Opisz charakterystyczne cechy dziobaka: "
+            }
+          ]
+        },
+        "Delete": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 14,
+              "ForegroundColor": 2,
+              "Text": "Podaj nazwę dziobaka, którego chcesz usunąć: "
+            },
+            {
+              "BackgroundColor": 14,
+              "ForegroundColor": 2,
+              "Text": "Dziobak o nazwie arg został usunięty z listy dziobaków."
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Dziobak nie znaleziony."
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 0,
+              "Text": "Nieprawidłowe dane wejściowe."
+            }
+          ]
+        }
+      }
+    },
+    "SettingsScreen": {
+      "Lines": {
+        "Choices": {
+          "LineEntries": [
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 14,
+              "Text": "Dostępne opcje to:"
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 14,
+              "Text": "0. Wyjście"
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 14,
+              "Text": "1. ENG"
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 14,
+              "Text": "2. PL"
+            },
+            {
+              "BackgroundColor": 4,
+              "ForegroundColor": 14,
+              "Text": "Proszę wprowadzić wybór: "
+            }
+          ]
+        }
+      }
+    }
+
+  }
+}
